@@ -4,6 +4,11 @@ import java.util.Arrays;
 
 public class Test {
     public static void main(String[] args) {
+        int[] arr = {1,3,5,7};
+        System.out.println(Arrays.toString(adjust(arr)));
+    }
+
+    public static void main2(String[] args) {
         int n = 3;  // 3个盘子
         System.out.println("汉诺塔移动步骤（" + n + "个盘子）：");
         Hanoi.hanoi(n, 'A', 'C', 'B');
